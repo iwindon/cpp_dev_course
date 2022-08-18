@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\ivanw\source\repos\cpp_dev_course\MathFun\MathFun\main.cpp(7,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\ivanw\source\repos\cpp_dev_course\MathFun\MathFun\main.cpp(8,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\ivanw\source\repos\cpp_dev_course\MathFun\MathFun\main.cpp(9,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\ivanw\source\repos\cpp_dev_course\MathFun\MathFun\main.cpp(10,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\ivanw\source\repos\cpp_dev_course\MathFun\MathFun\main.cpp(11,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  MathFun.vcxproj -> C:\Users\ivanw\source\repos\cpp_dev_course\MathFun\x64\Debug\MathFun.exe
