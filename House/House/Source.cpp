@@ -24,7 +24,7 @@ public:
 		return numStories;
 	}
 
-	int getWindows() const
+	int getNumWindows() const
 	{
 		return numWindows;
 	}
@@ -34,10 +34,12 @@ public:
 		return color;
 	}
 private:
-	int numStories;
-	int numWindows;
+	int numStories = 0;
+	int numWindows = 0;
 	string color;
 }; // end of the class House
+
+void printHouseData(const House& house);
 
 int main()
 {
@@ -52,11 +54,14 @@ int main()
 	yourHouse.setNumWindows(10);
 	yourHouse.setColor("blue");
 
-	cout << "My house is " << myHouse.getColor() << " and has "
-		<< myHouse.getWindows() << " windows.  The house is " << myHouse.getNumStories() << " stories." << endl;
-
-	cout << "Your house is " << yourHouse.getColor() << " and has "
-		<< yourHouse.getWindows() << "  windows.  The house is " << yourHouse.getNumStories() << " stories." << endl;
+	printHouseData(myHouse);
+	printHouseData(yourHouse);
 
 	return 0;
+}
+
+void printHouseData(const House& house)
+{
+	cout << "The house is " << house.getColor() << " with "
+		<< house.getNumStories() << " stories, and " << house.getNumWindows() << " windows." << endl;
 }
